@@ -130,3 +130,6 @@ dmypy.json
 
 #img Folder
 img/
+
+#Database
+database.json
