@@ -6,7 +6,8 @@
 
 function showPost(post){
     var loc="img/"+data[1]['tag']+"/"+post['url'].slice(3,-1)+".jpg";
-    var out='<span id="'+ post['url'].slice(3,-1) +'"><h4>'+ post['username'] +'</h4><img src='+ loc +'></span>';
+    // var out='<span id="'+ post['url'].slice(3,-1) +'"><h4>'+ post['username'] +'</h4><img src='+ loc +'></span>';
+    var out='<span id="'+ post['url'].slice(3,-1) +'"><h4>'+ post['username'] +'</h4><div style="background-image:url('+ loc +')"></div></span>';
     $("wrapper").append(out);
 }
 
