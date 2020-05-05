@@ -13,12 +13,10 @@ function showPost(post){
 function displayAll(){
     for(var i = 0; i < data.length; i++) {
         var obj = data[i];
-    
         console.log(obj.user);
         showPost(obj);
     }
-    console.log("Something")
-    console.log(data[0]);
+    console.log("Done displaying data")
 }
 
 displayAll();

@@ -1,7 +1,7 @@
 img{
  display: block;
  width: 100%;  
- border: 0.5em solid #ddd;
+ border: 0.3em solid #ddd;
 }
 
 span{
@@ -10,6 +10,6 @@ span{
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 1.5rem;
 }
