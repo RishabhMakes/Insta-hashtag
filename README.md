@@ -2,12 +2,13 @@
 Gets pictures from an insta hashtag
 
 ## Things done 
-Outputs JSON database
-Integrated with rudimentary frontpage using JS
+Outputs JSON database  
+Integrated with rudimentary frontpage using JS  
+Basic layout  
 
 ## Things to do
-Import JSON before running scraper
-Compare existing DB to incoming entries
+Import JSON before running scraper  
+Compare existing DB to incoming entries  
 Make a good interface for front end
 
 ## issues
